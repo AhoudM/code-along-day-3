@@ -42,14 +42,29 @@ body{
     outline: 1px solid blue;
 }
 
-h1{
+/* ========== CITY ==========  */
+
+#city{
     font-size: 60px ;
+}
+
+/* ========== TEMPERATURE ==========  */
+.temp{
+    display: flex; justify-content: space-between;
+    align-items: center;
 }
 
 #current{
     font-size: 120px;
 }
 
+/* ========== INFO ==========  */
+
 .info{
-    border: 3px solid blue; height: 100px; text-align: left;
+    display: flex; justify-content: space-between;
+    padding: 25px 0;
+    background: hsla(0, 0%, 77%, 10%);
+    border-radius: 15px ;
+    height: 100px;
+    box-shadow: 0 0 10px #313B45;
 }
