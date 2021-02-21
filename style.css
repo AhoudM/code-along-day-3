@@ -31,7 +31,15 @@ body{
     outline: none;
     font-size: 15px;
     color: #eee;
-
+}
+.search-bar input::placeholder{
+    font-size:15px ;
+}
+.search-bar .icon{
+    cursor: pointer;
+}
+.search-bar .icon:active{
+    outline: 1px solid blue;
 }
 
 h1{
